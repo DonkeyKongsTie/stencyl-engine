@@ -3,17 +3,14 @@ Stencyl
 
 http://www.stencyl.com
 
-Create Flash, iOS, Android, desktop and HTML5 games with no code with Stencyl. 
+Create Flash, iOS, Android, Mac, Windows and Linux games with no code with Stencyl. 
 This is the source to Stencyl's Haxe-based game engine. 
-
-At the moment, this source is only useful to those who can use Stencyl 3.0. It's not of much relevance to the public
-until 3.0 goes into public beta this summer.
 
 
 Requirements
 ==============
 
-* [Haxe 2.10](http://www.haxe.org)
+* [Haxe 3.0.1](http://www.haxe.org)
 * [Stencyl 3.0](http://www.stencyl.com)
 
 Stencyl's engine is written in [Haxe](http://www.haxe.org), a language similar to ActionScript 3. 
@@ -63,7 +60,6 @@ haxelib run nme test TestProject.nmml ios
 haxelib run nme test TestProject.nmml android
 haxelib run nme test TestProject.nmml windows
 haxelib run nme test TestProject.nmml mac
-haxelib run nme test TestProject.nmml html5
 ```
 
 To edit the data for the standalone test game, peek inside of Assets (contains the resource definitions, graphics, sounds) 
@@ -85,8 +81,7 @@ If you're running the engine standalone, viewing the engine's logs involves exte
 * For Windows, use XXXX?
 * For Mac, use OS X's Console app.
 * For iOS, use OS X's Console app. Also peek at the contents of ios-log.text.
-* For Android, use DDMS.
-* For HTML5, use your web browser's built in tools.
+* For Android, use DDMS (Android Device Monitor).
 
 
 
@@ -106,14 +101,23 @@ Contributing
 Credits
 ==============
 
-Stencyl's game engine is proudly built on top of [NME](http://www.nme.io) and [Haxe](http://www.haxe.org). 
+Stencyl's game engine is proudly built on top of [OpenFL](http://www.openfl.org) and [Haxe](http://www.haxe.org). 
 We're a proud sponsor of the [Haxe Foundation](http://www.haxe-foundation.org).
 
 
 Contributors
 ==============
 
-This is where we'll list out all our open source contributors.
+* Rob Alvarez
+* Mike Marve
+* Dario Seidl
+* Justin Espedal
+* Nathaniel Mitchell
+* Greg Sicard
+* Alexandre Vieira
+* Mike Morace
+* Simone Conia
+* Jason Irby
 
 
 MIT License
